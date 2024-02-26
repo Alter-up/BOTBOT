@@ -54,7 +54,7 @@ client.on("message", (msg) => {
 });
 
     client.channels.cache
-      .get("1208721793532039212")
+      .get("1210888935899660340")
       .send({"content": `Hey <@${msg.author.id}> it's time to check your **"Rewards"**!\n\n` ,
      
       "embeds": [
@@ -105,11 +105,11 @@ client.on("message", (msg) => {
   let message = msg.content;
 
   let channel = msg.channelId;
-  let botChannel = "1208721793532039212";
+  let botChannel = "1210888935899660340";
 
   const sendMessage = (message) => {
     client.channels.cache.get(botChannel).send(message);
   };
 });
 
-client.login("MTIwODA5NTQwMTA5NDQxNDM4Nw.GbbhTw.vDFTF-i7JTXTplSetjC2qlUC61OZna8JbZ8v3o");
+client.login(MTIxMDg4NzI0NTY4NzU1ODIzNA.GEQC8q.ga47Te92trHNUhWbgBW3_U4HYmk1kg8KSaJZo8");
